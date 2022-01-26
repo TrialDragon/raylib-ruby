@@ -12,28 +12,28 @@ module Raylib
       self[:r]
     end
 
-    def g
-      self[:g]
-    end
-
-    def b
-      self[:b]
-    end
-
-    def a
-      self[:a]
-    end
-
     def r=(val)
       self[:r] = val
+    end
+
+    def g
+      self[:g]
     end
 
     def g=(val)
       self[:g] = val
     end
 
+    def b
+      self[:b]
+    end
+
     def b=(val)
       self[:b] = val
+    end
+
+    def a
+      self[:a]
     end
 
     def a=(val)
