@@ -1,1 +1,1 @@
-# raylib-ruby-wrapper
+# raylib-ruby
