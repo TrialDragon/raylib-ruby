@@ -8,5 +8,6 @@ module Raylib
   ffi_lib '/home/trial/Projects/ruby/raylib-ruby/libraylib.so'
 end
 
-require_relative './constants'
-require_relative './structs'
+require_relative 'constants'
+require_relative 'structs'
+require_relative 'functions'
