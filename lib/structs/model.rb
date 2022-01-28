@@ -13,5 +13,6 @@ module Raylib
            :boneCount, :int,
            :bones, :pointer,
            :bindPose, :pointer
+    struct_initializer :transform, :meshCount, :materialCount, :meshes, :materials, :meshMaterial, :boneCount, :bones, :bindPose
   end
 end

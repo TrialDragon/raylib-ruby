@@ -8,5 +8,6 @@ module Raylib
            :offsetY, :int,
            :advanceX, :int,
            :image, Image
+    struct_initializer :value, :offsetX, :offsetY, :advanceX, :image
   end
 end

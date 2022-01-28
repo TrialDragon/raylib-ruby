@@ -8,5 +8,6 @@ module Raylib
            :looping, :bool,
            :ctxType, :int,
            :ctxData, :pointer
+    struct_initializer :stream, :frameCount, :looping, :ctxType, :ctxData
   end
 end

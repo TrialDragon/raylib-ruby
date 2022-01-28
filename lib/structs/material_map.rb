@@ -7,5 +7,6 @@ module Raylib
     layout :texture, Texture,
            :color, Color,
            :value, :float
+    struct_initializer :texture, :color, :value
   end
 end

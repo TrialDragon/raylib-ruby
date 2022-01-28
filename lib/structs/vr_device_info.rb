@@ -12,5 +12,6 @@ module Raylib
            :interupupillaryDistance, :float,
            :lensDistortionValues, :pointer,
            :chromaAbCorrection, :pointer
+    struct_initializer :hResolution, :vResolution, :hScreenSize, :vScreenSize, :vScreenCenter, :eyeToScreenDistance, :lensSeparationDistance, :interupupillaryDistance, :lensDistortionValues, :chromaAbCorrection
   end
 end

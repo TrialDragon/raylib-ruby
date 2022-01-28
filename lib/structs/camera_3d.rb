@@ -8,5 +8,6 @@ module Raylib
            :up, Vector3,
            :fovy, :float,
            :projection, :int
+    struct_initializer :position, :target, :up, :fovy, :projection
   end
 end

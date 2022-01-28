@@ -7,5 +7,6 @@ module Raylib
     layout :translation, Vector3,
            :rotation, Vector4,
            :scale, Vector3
+    struct_initializer :translation, :rotation, :scale
   end
 end

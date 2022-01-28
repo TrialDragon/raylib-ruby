@@ -7,5 +7,6 @@ module Raylib
            :sampleSize, :uint,
            :channels, :uint,
            :data, :pointer
+    struct_initializer :frameCount, :sampleRate, :sampleSize, :channels, :data
   end
 end

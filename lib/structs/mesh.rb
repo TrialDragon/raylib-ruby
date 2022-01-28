@@ -20,5 +20,6 @@ module Raylib
            # OpenGL Identifiers
            :vaoId, :uint,
            :vboId, :pointer
+    struct_initializer :vertexCount, :triangleCount, :vertices, :texcoords, :texcoords2, :normals, :tangents, :colors, :indices, :animVertices, :animNormals, :boneIds, :boneWeights, :vaoId, :vboId
   end
 end

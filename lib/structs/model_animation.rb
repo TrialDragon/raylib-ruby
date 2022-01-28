@@ -6,5 +6,6 @@ module Raylib
            :frameCount, :int,
            :bones, :pointer,
            :framePoses, :pointer
+    struct_initializer :boneCount, :frameCount, :bones, :framePoses
   end
 end

@@ -8,5 +8,6 @@ module Raylib
            :texture, Texture,
            :recs, :pointer,
            :glyphs, :pointer
+    struct_initializer :baseSize, :glyphCount, :glyphPadding, :texture, :recs, :glyphs
   end
 end

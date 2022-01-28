@@ -6,5 +6,6 @@ module Raylib
     layout :shader, Shader,
            :maps, :pointer,
            :params, :pointer
+    struct_initializer :shader, :maps, :params
   end
 end

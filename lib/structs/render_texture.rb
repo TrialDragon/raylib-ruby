@@ -6,5 +6,6 @@ module Raylib
     layout :id, :uint,
            :texture, Texture,
            :depth, Texture
+    struct_initializer :id, :texture, :depth
   end
 end

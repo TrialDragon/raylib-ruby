@@ -7,5 +7,6 @@ module Raylib
            :distance, :float,
            :point, Vector3,
            :normal, Vector3
+    struct_initializer :hit, :distance, :point, :normal
   end
 end

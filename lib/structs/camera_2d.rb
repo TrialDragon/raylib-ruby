@@ -7,5 +7,6 @@ module Raylib
            :target, Vector2,
            :rotation, :float,
            :zoom, :float
+    struct_initializer :offset, :target, :rotation, :zoom
   end
 end

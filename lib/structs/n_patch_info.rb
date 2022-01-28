@@ -7,5 +7,6 @@ module Raylib
            :right, :int,
            :bottom, :int,
            :layout, :int
+    struct_initializer :source, :left, :right, :bottom :layout
   end
 end

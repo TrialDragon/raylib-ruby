@@ -10,5 +10,6 @@ module Raylib
            :rightScreenCenter, :pointer,
            :scale, :pointer,
            :scalein, :pointer
+    struct_initializer :projection, :viewOffset, :leftLensCenter, :rightLensCenter, :leftScreenCenter, :rightScreenCenter, :scale, :scalein
   end
 end
