@@ -1,4 +1,5 @@
 require 'ffi'
+require_relative 'helper'
 
 module Raylib
   class NPatchInfo < FFI::Struct
@@ -7,6 +8,6 @@ module Raylib
            :right, :int,
            :bottom, :int,
            :layout, :int
-    struct_initializer :source, :left, :right, :bottom :layout
+    struct_initializer :source, :left, :right, :bottom, :layout
   end
 end

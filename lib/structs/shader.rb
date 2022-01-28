@@ -1,4 +1,5 @@
 require 'ffi'
+require_relative 'helper'
 
 module Raylib
   class Shader < FFI::Struct

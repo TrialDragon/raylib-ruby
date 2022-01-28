@@ -1,4 +1,5 @@
 require 'ffi'
+require_relative 'helper'
 require_relative 'audio_stream'
 
 module Raylib

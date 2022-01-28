@@ -1,4 +1,5 @@
 require 'ffi'
+require_relative 'helper'
 require_relative 'vector3'
 require_relative 'vector4'
 
