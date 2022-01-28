@@ -1,7 +1,7 @@
 # raylib [core] example - Basic Window
 # ported from raylib-c by TrialDragon
 
-require_relative '../../lib/raylib'
+require 'raylib'
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 450

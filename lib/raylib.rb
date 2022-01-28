@@ -8,7 +8,7 @@ module Raylib
   ffi_lib '/home/trial/Projects/ruby/raylib-ruby/libraylib.so'
 end
 
-require_relative 'constants'
-require_relative 'structs'
-require_relative 'functions'
-require_relative 'enums'
+require_relative 'raylib/constants'
+require_relative 'raylib/structs'
+require_relative 'raylib/functions'
+require_relative 'raylib/enums'
